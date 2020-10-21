@@ -1,7 +1,9 @@
 module github.com/NathanNr/gorum-clig
 
+go 1.14
+
 require (
-	github.com/lib/pq v1.0.1-0.20181016162627-9eb73efc1fcc
-	golang.org/x/crypto v0.0.0-20190228161510-8dd112bcdc25
-	golang.org/x/sys v0.0.0-20190303122642-d455e41777fc // indirect
+	github.com/lib/pq v1.8.0
+	golang.org/x/crypto v0.0.0-20201016220609-9e8e0b390897
+	golang.org/x/sys v0.0.0-20201020230747-6e5568b54d1a // indirect
 )
